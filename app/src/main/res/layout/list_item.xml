@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:padding="6dip"
+    >
+
+    <ImageView
+        android:id="@+id/acronym"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="10dip"
+        android:scaleType="centerInside"
+
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/acronym"
+        android:text="Miensny Jesz"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/introduction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/acronym"
+        android:layout_below="@id/title"
+        android:text="Dobra zupa"
+        android:textSize="16sp"
+        />
+
+
+
+</RelativeLayout>
